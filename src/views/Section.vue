@@ -15,7 +15,7 @@
       <RealBanner />
     </div>
     <Featured />
-    <Events />
+    <!-- <Events /> -->
     <GetFamiliar />
     <News />
     <Footer />
@@ -26,7 +26,7 @@
 import Navigation from "../components/Navigation.vue";
 import RealBanner from "../components/RealBanner.vue";
 import Featured from "../components/Featured.vue";
-import Events from "../components/Events.vue";
+// import Events from "../components/Events.vue";
 import GetFamiliar from "../components/GetFamiliar.vue";
 import News from "../components/News.vue";
 import Footer from "../components/Footer.vue";
@@ -39,7 +39,7 @@ export default {
   components: {
     Navigation,
     Featured,
-    Events,
+    // Events,
     GetFamiliar,
     News,
     Footer,

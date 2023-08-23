@@ -22,7 +22,7 @@ html {
   position: relative;
 } */
 
-/* .slide-enter {
+.slide-enter {
   opacity: 0;
 }
 
@@ -34,12 +34,12 @@ html {
 
 @keyframes slide-in {
   from {
-      transform: translateX(250px);   
-    } 
+    transform: translateX(250px);
+  }
   to {
-      transform: translateX(0);
-  } 
-} */
+    transform: translateX(0);
+  }
+}
 
 /* #nav {
   padding: 30px;

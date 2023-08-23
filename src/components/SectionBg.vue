@@ -1,4 +1,4 @@
-
+<!-- 
     </div>
 </template>
 
@@ -18,4 +18,11 @@ export default {
     left: 0;
     backdrop-filter: blur(2px);
 }
-</style>
+</style> -->
+<template></template>
+
+<script>
+export default {};
+</script>
+
+<style></style>

@@ -24,9 +24,9 @@
       <div class="mt-8 flex flex-col lg:flex-row lg:gap-x-32 xl:gap-x-52">
         <div class="jo flex flex-col lg:flex-row lg:gap-x-2">
           <div class="joke">
-            <img src="../assets/images/FeaturedBible.png" />
+            <img src="../assets/images/FeaturedBible.png" loading="lazy" />
           </div>
-          <div>
+          <!-- <div>
             <router-link to="/bible">
               <h1
                 class="text-xl xl:text-2xl font-white font-serif text-white mb-4"
@@ -38,7 +38,7 @@
               You can gain more scriptural insight from the word of God by
               digging deep daily from the word of God.
             </p>
-          </div>
+          </div> -->
         </div>
         <div>
           <h1 class="text-xl xl:text-2xl font-white font-serif text-white mb-4">

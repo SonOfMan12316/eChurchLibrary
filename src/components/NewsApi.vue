@@ -9,7 +9,7 @@
       class="flex flex-col sm:flex-row gap-y-4 sm:gap-x-4 sm"
     >
       <div class="content flex flex-col">
-        <img :src="article.top_image" />
+        <img :src="article.top_image" loading="lazy" />
 
         <a>
           <div class="flex space-x-2 space-y-2">

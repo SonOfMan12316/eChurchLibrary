@@ -2,7 +2,7 @@
   <div class="event-content mt-8">
     <div class="flex flex-col sm:flex-row gap-y-4 sm:gap-x-4 sm">
       <div class="jo sm:mt-2" @click="reloadPage">
-        <img :src="data.urlToImage" />
+        <img :src="data.urlToImage" loading="lazy" />
       </div>
       <div class="content flex flex-col">
         <a :href="data.url">
